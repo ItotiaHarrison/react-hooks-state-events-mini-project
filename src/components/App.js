@@ -19,8 +19,8 @@ function App() {
     category: formCategory,
   }
 
-  function onTaskFormSubmit(e) {
-    e.preventDefault();
+  function onTaskFormSubmit(event) {
+    event.preventDefault();
     setMyTasks([...myTasks, obj])
   }
 

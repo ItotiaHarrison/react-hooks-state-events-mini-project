@@ -4,6 +4,7 @@ function Task(props) {
   function handleDelete(){
     props.onDelete(props.text)
   }
+  
   return (
     <div className="task">
       <div className="label">{props.category}</div>

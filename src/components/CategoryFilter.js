@@ -9,7 +9,7 @@ function CategoryFilter({ categories, onSelectedCategory, onHandleCategory }) {
         key={category}
         className={className}
         onClick={() => onHandleCategory(category)}
-      >{category}</button>
+      >{category} </button>
     );
   })
   return (
